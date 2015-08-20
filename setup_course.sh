@@ -9,5 +9,5 @@ wget --no-check-certificate http://bitbucket.org/wradlib/wradlib/get/default.zip
 unzip default.zip
 cd wradlib-wradlib*
 python setup.py install
-cd ~
+cd ../..
 rm -r tmp
